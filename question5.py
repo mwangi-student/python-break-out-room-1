@@ -1,5 +1,5 @@
 def safaricom_menu():
-    """Main menu function for Safaricom SIM Toolkit."""
+    # mwangi- Main menu function for Safaricom SIM Toolkit.
     while True:
         print("SIM 1")
         print("1. Safaricom")
@@ -13,7 +13,7 @@ def safaricom_menu():
             print("Invalid choice. Please try again.")
 
 def mpesa_menu():
-    """M-PESA menu."""
+    # mwangi- M-PESA menu.
     while True:
         print("\nSIM 1 - M-PESA")
         print("1. Send Money")
@@ -42,7 +42,7 @@ def mpesa_menu():
             print("Invalid choice. Please try again.")
 
 def send_money():
-    """Send Money submenu."""
+    # mwangi- Send Money submenu.
     while True:
         phone_number = input("\nEnter Phone Number (10-13 digits): ")
         if phone_number.isdigit() and 10 <= len(phone_number) <= 13:
@@ -55,5 +55,4 @@ def send_money():
         else:
             print("Invalid phone number. Try again.")
 
-# Run the program
 safaricom_menu()

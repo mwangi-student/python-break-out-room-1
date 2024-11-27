@@ -5,6 +5,7 @@
 # print(unique_numbers([1, 2, 2, 3, 4, 4, 5]))  
 # mwangi- Output: [1, 2, 3, 4, 5]
 
+# another way
 
 unique_numbers=[1,2,3,4,6,3, 2]
 new_numbers= list(set(unique_numbers))
